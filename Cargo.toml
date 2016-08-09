@@ -1,0 +1,17 @@
+[package]
+name = "nix-parser"
+version = "0.1.0"
+authors = ["Robin Gloster <robin.gloster@mayflower.de>"]
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/mayflower/nix-parser"
+repository = "https://github.com/mayflower/nix-parser"
+readme = "README.md"
+keywords = ["puppetfile", "parser", "r10k"]
+
+[dependencies]
+regex = "*"
+
+[dependencies.nom]
+version = "*"
+features = ["regexp"]
+
